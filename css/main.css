@@ -1,0 +1,108 @@
+
+html{
+    background-color: #d0ddd0;
+    min-height: 100%;
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+header, footer{
+    width: 100%;
+    display: inline-block;
+    text-align: justify;
+    height: 100px;
+}
+
+header{
+   background:#aaeebb;
+   padding:10px;
+    border-bottom-style: solid;
+    border-bottom-width: thin; 
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    height:60px;   /* Height of the footer */
+    background:#6cf;
+}
+
+body{
+    position: relative;
+    min-height: 100%;
+    margin-bottom: 100px;
+   margin:0;
+   padding:0;
+   height:100%;
+   padding:10px;
+   padding-bottom:60px; 
+}
+
+
+.mainContent{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectPost{
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    border-style: solid;
+    background-color: #d0d0dd;
+    position: relative;
+}
+
+header a{
+    padding-left: auto;
+    padding-right: auto;
+    float: left;
+    height: 100%;
+    width: 25%;
+    position: relative;
+}
+
+a elem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+footer elem{
+    margin-right: 30%;
+    float: left;
+}
+
+li{
+    list-style: none;
+    float: left;
+    padding: 2px;
+    text-decoration: none;
+    background-color: #d0d6d0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a.endLink {
+    color: blue;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.all{
+    min-height:100%;
+    padding: 0px;
+    margin: 0px;
+   min-height:100%;
+   position:relative;
+}
+

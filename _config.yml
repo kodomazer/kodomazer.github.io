@@ -1,2 +1,8 @@
 name: Brian Zhao
 markdown: kramdown
+paginate: 5
+gems: [jekyll-paginate]
+collections:
+  project:
+    output: true
+

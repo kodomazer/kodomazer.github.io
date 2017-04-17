@@ -6,3 +6,7 @@ title: Brian Zhao
 	<h1>Index Page</h1>
 	<p> This uses the default template</p>
 </div><!-- /.blurb -->
+
+{% for post in site.project %}
+    {% include projectPost.html %}
+{% endfor %}
