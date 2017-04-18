@@ -98,14 +98,18 @@ Begin Project Post Include
 
 .projectPost{
     height: 20em;
-min-width: 20em;
+    min-width: 20em;
     width: 25%;
     border-color: black;
     border-style: solid;
     background-color: #d0d0dd;
     position: relative;
     margin: 10px;
-    float: left;
+    display: inline-table;
+}
+
+.PostContainer{
+    text-align: center;
 }
 
 li{
