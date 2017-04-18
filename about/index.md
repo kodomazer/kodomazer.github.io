@@ -7,8 +7,6 @@ I'm Brian Zhao and I go to Cogswell Polytechnical College studying to be a Game 
 You can see what [projects] I've worked on and what I'm [up to][posts].
 
 
-This website is still under construction so hopefully it isn't too bad.
-
 You can get a PDF of my resume [here][1]
 
 ![Business Card]
