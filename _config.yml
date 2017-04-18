@@ -5,4 +5,4 @@ gems: [jekyll-paginate]
 collections:
   project:
     output: true
-
+paginate_path: "/post/page:num/"

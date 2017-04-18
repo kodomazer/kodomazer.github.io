@@ -7,61 +7,48 @@ html{
    height:100%;
 }
 
+body{
+    position: relative;
+    min-height: 100%;
+    min-width: 500px;
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+
+.plainLink{
+    color: black;
+    text-decoration: none;
+}
+
+/* Begin Header/Footer Declaration */
+
 header, footer{
-    width: 100%;
+    width: 98%;
+    padding: 1%;
     display: inline-block;
-    text-align: justify;
-    height: 100px;
+    text-align: center;
+    height: 60px;
+    background:#aaeebb;
 }
 
 header{
-   background:#aaeebb;
-   padding:10px;
     border-bottom-style: solid;
     border-bottom-width: thin; 
 }
 
-footer{
-    position: absolute;
-    bottom: 0px;
-    height:60px;   /* Height of the footer */
-    background:#6cf;
-}
-
-body{
-    position: relative;
-    min-height: 100%;
-    margin-bottom: 100px;
-   margin:0;
-   padding:0;
-   height:100%;
-   padding:10px;
-   padding-bottom:60px; 
-}
-
-
-.mainContent{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.projectPost{
-    height: 200px;
-    width: 200px;
-    border-color: black;
-    border-style: solid;
-    background-color: #d0d0dd;
-    position: relative;
-}
-
 header a{
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: 1%;
+    margin-right: 1%;
     float: left;
     height: 100%;
-    width: 25%;
+    width: 20%;
     position: relative;
+}
+
+header a:hover,
+footer a:hover {
+    background: #c0ccc0;
 }
 
 a elem{
@@ -72,8 +59,52 @@ a elem{
     transform: translate(-50%, -50%)
 }
 
+footer{
+    position: absolute;
+    bottom: 0px;
+}
+
+footer a{
+    margin: 5%;
+    padding-top: 5px;
+}
+
 footer elem{
     margin-right: 30%;
+    float: left;
+}
+
+/*
+End Header/Footer
+
+Begin Main Content defaults
+*/
+
+.mainContent{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-bottom: 100px;
+    background-color: #e0fde0;
+    overflow: auto;
+}
+
+/*
+End Default Layout
+
+Begin Project Post Include
+*/
+
+.projectPost{
+    height: 20em;
+min-width: 20em;
+    width: 25%;
+    border-color: black;
+    border-style: solid;
+    background-color: #d0d0dd;
+    position: relative;
+    margin: 10px;
     float: left;
 }
 
@@ -83,11 +114,6 @@ li{
     padding: 2px;
     text-decoration: none;
     background-color: #d0d6d0;
-}
-
-a{
-    color: black;
-    text-decoration: none;
 }
 
 a.endLink {
@@ -100,9 +126,17 @@ a.endLink {
 
 .all{
     min-height:100%;
-    padding: 0px;
+    padding-bottom: 0px;
     margin: 0px;
    min-height:100%;
    position:relative;
+}
+
+img{
+    color: black;
+}
+
+h1.postTitle {
+    margin-bottom: 0px;
 }
 

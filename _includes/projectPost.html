@@ -1,6 +1,12 @@
 <div class="projectPost">
-    <a href="{{post.url}}">
+    <a href="{{post.url}}" class="plainLink">
         <img source="{{post.image}}" alt="{{post.imageAlt}}"/>
     </a>
+    <h3>
+        {{post.title}}
+    </h3>
+    <div class="postBlurb">
+        {{post.blurb}}
+    </div>
     <a class="endLink" href="{{post.url}}">Read more...</a>
 </div>

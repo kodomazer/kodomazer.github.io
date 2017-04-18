@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: post
 title: First Post
 category: post
 ---
-Hope it looks alright.
+Hope this looks alright.
+
+First time using Markdown and Jekyll so hopefully I can make it work properly.
